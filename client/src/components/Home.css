@@ -1,0 +1,176 @@
+.home{
+    background-image: url("../images/pokebola.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:0%;
+    overflow-x: hidden; 
+   }
+
+   .alfa{
+     width:14rem;
+     left:123px;
+     text-align: center;
+   }
+
+   .fuerza{  
+    text-align: center;   
+   }
+
+   .origen{
+    text-align: center;
+    width:14rem;
+   }
+
+   .tipo{
+    text-align: center;
+    width:14rem;  
+   }
+
+   
+   .titulo{
+       display: inline-block;
+       font-size: 95px;
+       margin-top:40px;
+       color: rgb(241, 8, 16);
+       font-weight: bold;
+       text-align: center;
+       text-shadow: rgb(0, 128, 128) 0px 1px 0px,
+       rgb(181, 181, 181) 0px 2px 0px,
+       rgb(172, 172, 172) 0px 3px 0px,
+       rgb(160, 160, 160) 0px 4px 0px,
+       rgb(145, 145, 145) 0px 5px 0px,
+       rgb(127, 127, 127) 0px 6px 0px,
+       rgba(0, 0, 0, 0.199219) 0px 7px 1px,
+       rgba(0, 0, 0, 0.296875) 0px 8px 6px;
+   }
+   
+   .ordenar{
+       color:white;
+       font-size: 30px;
+       display:flex;
+       position: relative;
+       left: 90px;
+       top: -150px;    
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .filtrar{
+       color:white;
+       display:flex;
+       align-items:flex-end;
+       position: relative;
+       left: 1109px;
+       top:-190px;
+       font-size: 30px;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   .crearPokemon{
+       color:white;
+       font-size: 30px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   
+   
+   
+   .volveraCargar:hover{
+       color:rgb(245, 10, 10);
+      }
+   
+   .alfabetico{
+       position:relative;
+       right: 195px;
+       bottom: 200px;
+       margin-top:-180px;
+       border-radius: 20px;
+       border-radius: 20px;
+       background-color:rgb(245, 10, 10);
+       color:white;
+       cursor: pointer;
+       width:14rem;
+       text-align: center;
+
+   }
+  
+   .alfabetico:hover{
+       color:yellow;
+      }
+   .porfuerza{
+       position:relative;
+       bottom: 120px;
+       right: 420px;
+       margin-top:50px;
+       border-radius: 20px;
+       background-color:rgb(241, 8, 16);
+       color:white;
+       cursor: pointer;
+       text-align: center;
+   }
+   
+   .porfuerza:hover{
+       color:yellow;
+      }
+   
+   .portipo{
+       position:relative;
+       bottom: 195px;
+       left: 157px;
+       margin-top:-120px;
+       border-radius: 20px;
+       background-color:rgb(245, 10, 10);
+       color:white;
+       cursor: pointer;
+       width:14rem;
+       text-align: center;
+   }
+   
+   .portipo:hover{
+       color:yellow;
+      }
+   
+   .pororigen{
+    position:relative;
+    left: 380px;
+    bottom:110px;
+    margin-top:50px;
+    border-radius: 20px;
+    background-color:rgb(245, 10, 10);
+    color:white;
+    cursor: pointer;
+    width:14rem;
+    text-align: center;
+   }
+
+   
+    .pororigen:hover{
+       color:yellow;
+      } 
+
+   
+   .cards{
+       display: inline-block;
+       flex-wrap: wrap;
+       justify-content: center;
+       width:300px;
+       overflow:hidden;
+       
+   }
+   
+   .btn{
+       font-size: 15px;
+       border-radius: 20px;
+       background-color: red;
+       color:white;
+       cursor:pointer;
+       position:relative;
+       right:920px;
+       top:500px;  
+       
+   }
+   
+   .btn:hover{
+    color:yellow;
+   }

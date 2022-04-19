@@ -1,0 +1,170 @@
+.pokeair{
+    background-image: url(../images/pokes2.jpg);
+    background-repeat: no-repeat;
+    min-height:100%; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color:black;
+    font-size: 20px;
+   
+}
+
+.boton2{
+  border-radius: 15px; 
+  position:absolute;
+  right:350px;
+  top:250px;
+  width:150px;
+  font-weight: bold;
+  color:white;
+  text-align: center; 
+  background-color: red;
+}
+.container1{
+  display:flex;
+  position:absolute;
+  left:600px; 
+  align-items:center; 
+  margin:10px;
+}
+
+.container1 p{
+    align-items: center;
+    position:relative;
+    top:105px;
+    color:red;   
+}
+.input{
+  border-radius: 15px;
+  margin:10px; 
+}
+.container-2{
+    display:flex;
+    position: absolute;
+    top:150px; 
+    left:615px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-2 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}  
+
+.container3{
+    display:flex;
+    position: absolute;
+    top:200px; 
+    left:647px; 
+    align-items:center; 
+    margin:10px
+  }
+
+
+.container-4{
+    display:flex;
+    position: absolute;
+    top:250px; 
+    left:600px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-4 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}
+
+.container-5{
+    display:flex;
+    position: absolute;
+    top:300px; 
+    left:610px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-5 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}
+
+
+.container-6{
+    display:flex;
+    position: absolute;
+    top:350px; 
+    left:615px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-6 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}
+
+.container-7{
+    display:flex;
+    position: absolute;
+    top:400px; 
+    left:605px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-7 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}
+
+.container-8{
+    display:flex;
+    position: absolute;
+    top:450px; 
+    left:600px; 
+    align-items:center; 
+    margin:10px
+  }
+
+.container-8 p{
+    align-items: center;
+    position:relative;
+    top:7px;
+    color:red;    
+}
+
+.check{
+  display:grid; 
+  grid-template-columns: repeat(8,1fr); 
+  position:absolute;
+  align-items: center;
+  margin-top: 50px;
+  top:500px; 
+  left:500px; 
+  grid-gap: 20px; 
+  text-align: center;
+}
+.label{
+  font-weight: bold;  
+}
+
+.labelCheck{
+    display:flex;  
+    position:absolute;  
+    top:500px;    
+}
+
+   

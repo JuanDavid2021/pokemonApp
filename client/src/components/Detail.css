@@ -1,0 +1,37 @@
+.pokebola{
+    background-image: url(../images/pokebola2.jpg); 
+    background-repeat: no-repeat;
+    min-height:100%; 
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .info{
+      color:white;
+      align-content: center;
+      padding-right: 850px;
+      
+  }
+  
+  .imagendetail{
+  position: absolute;
+  right: 100px;
+  bottom:100px;
+  height: 500px;
+  width:500px;
+  background: none;
+  }
+  
+  .boton{
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: red;
+    color:white;
+    cursor:pointer
+    
+  }
+  
+  .boton:hover{
+    color:yellow;
+   }

@@ -1,0 +1,14 @@
+
+
+.pokecard{
+    background-color: #05050580;
+    margin:20px;
+    width:18rem;
+    height: 30rem;
+    color: rgb(255, 255, 255);
+    border-radius:50px;
+    z-index:1;
+    text-decoration: none;
+
+}
+
